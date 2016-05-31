@@ -22,7 +22,7 @@ Clone this repo:
 
 Navigate to newly created folder:
 
-` cd RailsIntro`
+`cd RailsIntro`
 
 Install gems
 
