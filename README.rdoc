@@ -64,5 +64,5 @@ or run Guard to have the testing run continuously as you update the app
 
 {Listen Gem Install Error Help}[https://github.com/sendgrid/sendgrid-ruby/issues/64]
 
-{Updating Ruby}[https://shellzero.wordpress.com/tag/how-to-update-ruby-2-0-to-the-latest-version-on-mac-os-x-yose
+{Update Ruby}[https://shellzero.wordpress.com/tag/how-to-update-ruby-2-0-to-the-latest-version-on-mac-os-x-yose
 mite/]
