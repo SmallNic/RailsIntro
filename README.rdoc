@@ -1,28 +1,47 @@
-== README
+== Intro to Rails Tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#General Information
 
-Things you may want to cover:
+**Name**: Tasks
 
-* Ruby version
+**Description**: A simple task manager tutorial implement test-driven development.
 
-* System dependencies
+**Source Material**: [Tutsplus](http://blog.thefrontiergroup.com.au/2013/05/writing-a-good-readme/)
 
-* Configuration
+**Framework**: Rails 4.2.4
 
-* Database creation
+**Language**: Ruby 2.3.1
 
-* Database initialization
+**Database**: SQLite 3.8.10.2
 
-* How to run the test suite
+#Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+Clone this repo:
 
-* Deployment instructions
+`git clone https://github.com/SmallNic/RailsIntro.git`
 
-* ...
+Navigate to newly created folder:
 
+` cd RailsIntro`
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Install gems
+
+`bundle install`
+
+Run migrations
+
+`rake db:migrate`
+
+Navigate to your localhost: [http://localhost:3000/](http://localhost:3000/)
+
+#Testing
+
+You can run the rspec command
+
+`rspec`
+
+or run Guard to have the testing run continuously as you update the app
+
+`guard`
+
+`all`
