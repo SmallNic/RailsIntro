@@ -45,3 +45,24 @@ or run Guard to have the testing run continuously as you update the app
 +guard+
 
 +all+
+
+== Useful Resources:
+
+Rspec-Rails Gem[https://github.com/rspec/rspec-rails]
+
+Capybara Gem[https://github.com/jnicklas/capybara]
+
+Guard-Rspec Gem[https://github.com/guard/guard-rspec]
+
+Guard Gem[https://github.com/guard/guard/blob/master/README.md]
+
+Growl[http://growl.info/]
+
+Rb-appscript Gem Install Error Help[http://stackoverflow.com/questions/9660919/error-while-installing-rb-appscript-gem]
+
+Libnotify Gem (In place of growl_notify)[https://github.com/splattael/libnotify]
+
+Listen Gem Install Error Help[https://github.com/sendgrid/sendgrid-ruby/issues/64]
+
+Updating Ruby[https://shellzero.wordpress.com/tag/how-to-update-ruby-2-0-to-the-latest-version-on-mac-os-x-yose
+mite/]
