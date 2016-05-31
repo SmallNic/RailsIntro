@@ -46,6 +46,8 @@ group :development, :test do
   gem 'guard-rspec', require: false
   # Global notification system originally for Mac OS X.
   gem 'growl'
+  # Launchy is helper class for launching cross-platform applications in a fire and forget manner.
+  gem 'launchy'
 
 end
 

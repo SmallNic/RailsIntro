@@ -1,2 +1,13 @@
-<h1>Tasks#index</h1>
-<p>Find me in app/views/tasks/index.html.erb</p>
+<h1>Tasks</h1>
+
+<%= render 'form' %>
+
+<ul>
+<% @tasks.each do |t| %>
+  <li id="task_<%= t.id %>">
+    <%= t.task %><br>
+    <%= link_to 'Edit', edit_task_path(t) %>
+    <%= link_to 'Delete', t, method: :delete %>
+    </li>
+<% end %>
+</ul>
