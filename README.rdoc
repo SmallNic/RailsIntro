@@ -1,10 +1,10 @@
-== Intro to Rails Tutorial
+= Intro to Rails Tutorial
 
 ==General Information
 
 *Name*: Tasks
 
-*Description*: A simple task manager tutorial implement test-driven development.
+*Description*: A simple task manager tutorial implement test-driven development
 
 *Source Material*: Tutsplus[http://blog.thefrontiergroup.com.au/2013/05/writing-a-good-readme/]
 
@@ -34,7 +34,7 @@ Run migrations
 
 Navigate to your localhost: http://localhost:3000/
 
-#Testing
+==Testing
 
 You can run the rspec command
 
