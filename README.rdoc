@@ -1,47 +1,47 @@
 == Intro to Rails Tutorial
 
-#General Information
+==General Information
 
-**Name**: Tasks
+*Name*: Tasks
 
-**Description**: A simple task manager tutorial implement test-driven development.
+*Description*: A simple task manager tutorial implement test-driven development.
 
-**Source Material**: [Tutsplus](http://blog.thefrontiergroup.com.au/2013/05/writing-a-good-readme/)
+*Source Material*: Tutsplus[http://blog.thefrontiergroup.com.au/2013/05/writing-a-good-readme/]
 
-**Framework**: Rails 4.2.4
+*Framework*: Rails 4.2.4
 
-**Language**: Ruby 2.3.1
+*Language*: Ruby 2.3.1
 
-**Database**: SQLite 3.8.10.2
+*Database*: SQLite 3.8.10.2
 
-#Getting Started
+==Getting Started
 
 Clone this repo:
 
-`git clone https://github.com/SmallNic/RailsIntro.git`
++git clone https://github.com/SmallNic/RailsIntro.git+
 
 Navigate to newly created folder:
 
-`cd RailsIntro`
++cd RailsIntro+
 
 Install gems
 
-`bundle install`
++bundle install+
 
 Run migrations
 
-`rake db:migrate`
++rake db:migrate+
 
-Navigate to your localhost: [http://localhost:3000/](http://localhost:3000/)
+Navigate to your localhost: http://localhost:3000/
 
 #Testing
 
 You can run the rspec command
 
-`rspec`
++rspec+
 
 or run Guard to have the testing run continuously as you update the app
 
-`guard`
++guard+
 
-`all`
++all+
